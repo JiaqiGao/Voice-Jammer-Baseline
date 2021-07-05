@@ -1,9 +1,0 @@
-#start (msec), end(msec), transcription
-0,1000,
-1000,2000,he was out of 
-2000,3000,his mind with something 
-3000,4000,he overheard about eating 
-4000,5000,people's flesh 
-5000,6000,and drinking blood 
-6000,7000,what's the good of 
-7000,7315,of talking like that 

@@ -285,7 +285,8 @@ if __name__ == '__main__':
         # ASR sentences
 
         # Generate spectrogram
-        test_sentences = [x for x in test_sentence.split(".") if len(x) > 1]
-
+        # Considering breaking up input into smaller pieces for faster and better quality synthesis: 
+        # test_sentences = [x for x in test_sentence.split(".") if len(x) > 1]
+        test_sentences = [test_sentence] 
         for i, sentence in enumerate(test_sentences):
             generate_voice(sentence, embed, "output%d.wav" % i, synthesizer)
